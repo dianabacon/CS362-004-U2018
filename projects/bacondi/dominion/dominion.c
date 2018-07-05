@@ -647,7 +647,7 @@ int adventurerEffect(struct gameState *state)
 {
   int currentPlayer = whoseTurn(state);
   int temphand[MAX_HAND];
-  int z = 0;// this is the counter for the temp hand
+  int z = 1;// this is the counter for the temp hand
   int drawntreasure=0;
   int cardDrawn;
 
@@ -678,7 +678,7 @@ int smithyEffect(struct gameState *state, int handPos)
   int currentPlayer = whoseTurn(state);
 
   //+3 Cards
-  for (i = 0; i < 3; i++)
+  for (i = 0; i <= 3; i++)
     {
       drawCard(currentPlayer, state);
     }
@@ -710,7 +710,7 @@ int mineEffect(struct gameState *state, int choice1, int choice2, int handPos)
   int i;
   int j = state->hand[currentPlayer][choice1];  //store card we will trash
 
-  if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
+  if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > silver)
   {
     return -1;
   }
@@ -798,7 +798,7 @@ int tributeEffect(struct gameState *state)
 
         for (i = 0; i <= 2; i ++){
     if (tributeRevealedCards[i] == copper || tributeRevealedCards[i] == silver || tributeRevealedCards[i] == gold){//Treasure cards
-      state->coins += 2;
+      state->coins += 3;
     }
           
     else if (tributeRevealedCards[i] == estate || tributeRevealedCards[i] == duchy || tributeRevealedCards[i] == province || tributeRevealedCards[i] == gardens || tributeRevealedCards[i] == great_hall){//Victory Card Found
