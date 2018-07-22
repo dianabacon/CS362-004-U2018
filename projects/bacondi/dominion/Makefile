@@ -102,4 +102,4 @@ player: player.c interface.o
 all: playdom player 
 
 clean:
-	rm -rf *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe testUpdateCoins unittestresults.out unittest? *.dSYM
+	rm -rf *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe testUpdateCoins unittestresults.out unittest? cardtest? *.dSYM
