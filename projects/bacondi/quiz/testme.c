@@ -5,14 +5,17 @@
 
 char inputChar()
 {
-    // TODO: rewrite this function
-    return ' ';
+  return "[({ ax})]"[random() % 9];
 }
 
 char *inputString()
 {
-    // TODO: rewrite this function
-    return "";
+  int len = 6;
+  char *randomString = malloc(sizeof(char)*len);
+  for (int i=0; i<len; i++) {
+    randomString[i] = "reset\0"[random() % 6];
+  }
+  return randomString;
 }
 
 void testme()
@@ -38,9 +41,9 @@ void testme()
     if (c == ')' && state == 7) state = 8;
     if (c == ']' && state == 8) state = 9;
     if (s[0] == 'r' && s[1] == 'e'
-       && s[2] == 's' && s[3] == 'e'
-       && s[4] == 't' && s[5] == '\0'
-       && state == 9)
+     && s[2] == 's' && s[3] == 'e'
+     && s[4] == 't' && s[5] == '\0'
+     && state == 9)
     {
       printf("error ");
       exit(200);
@@ -51,7 +54,7 @@ void testme()
 
 int main(int argc, char *argv[])
 {
-    srand(time(NULL));
-    testme();
-    return 0;
+  srand(time(NULL));
+  testme();
+  return 0;
 }
