@@ -5,7 +5,7 @@
 
 char inputChar()
 {
-  return "[({ ax})]"[random() % 9];
+  return "[({ ax})]"[rand() % 9];
 }
 
 char *inputString()
@@ -13,7 +13,7 @@ char *inputString()
   int len = 6;
   char *randomString = malloc(sizeof(char)*len);
   for (int i=0; i<len; i++) {
-    randomString[i] = "erst\0"[random() % 5];
+    randomString[i] = "erst\0"[rand() % 5];
   }
   return randomString;
 }
