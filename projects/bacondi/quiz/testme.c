@@ -13,7 +13,7 @@ char *inputString()
   int len = 6;
   char *randomString = malloc(sizeof(char)*len);
   for (int i=0; i<len; i++) {
-    randomString[i] = "reset\0"[random() % 6];
+    randomString[i] = "erst\0"[random() % 5];
   }
   return randomString;
 }

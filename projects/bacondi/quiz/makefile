@@ -11,7 +11,7 @@ tests.out: testme
 	echo "testme.c:" >> tests.out
 	trap "./testme >> tests.out" EXIT
 	echo >> tests.out
-	gcov testme.c >> tests.out
+	gcov -b testme.c >> tests.out
 	cat testme.c.gcov >> tests.out
 	
 clean:
