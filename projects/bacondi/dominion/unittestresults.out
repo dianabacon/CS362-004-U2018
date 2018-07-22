@@ -1,0 +1,3143 @@
+Running unit tests:
+unittest1.c:
+TESTING updateCoins():
+Test player 0 with 0 treasure card(s) and 0 bonus.
+G.coins = 0, expected = 0 PASS
+G.coins = 0, expected = 0 PASS
+G.coins = 0, expected = 0 PASS
+Test player 0 with 0 treasure card(s) and 1 bonus.
+G.coins = 1, expected = 1 PASS
+G.coins = 1, expected = 1 PASS
+G.coins = 1, expected = 1 PASS
+Test player 0 with 0 treasure card(s) and 2 bonus.
+G.coins = 2, expected = 2 PASS
+G.coins = 2, expected = 2 PASS
+G.coins = 2, expected = 2 PASS
+Test player 0 with 0 treasure card(s) and 3 bonus.
+G.coins = 3, expected = 3 PASS
+G.coins = 3, expected = 3 PASS
+G.coins = 3, expected = 3 PASS
+Test player 0 with 0 treasure card(s) and 4 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 4, expected = 4 PASS
+G.coins = 4, expected = 4 PASS
+Test player 0 with 0 treasure card(s) and 5 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 5, expected = 5 PASS
+G.coins = 5, expected = 5 PASS
+Test player 0 with 0 treasure card(s) and 6 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 6, expected = 6 PASS
+G.coins = 6, expected = 6 PASS
+Test player 0 with 0 treasure card(s) and 7 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 7, expected = 7 PASS
+G.coins = 7, expected = 7 PASS
+Test player 0 with 0 treasure card(s) and 8 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 8, expected = 8 PASS
+Test player 0 with 0 treasure card(s) and 9 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 9, expected = 9 PASS
+Test player 0 with 0 treasure card(s) and 10 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 10, expected = 10 PASS
+Test player 0 with 1 treasure card(s) and 0 bonus.
+G.coins = 1, expected = 1 PASS
+G.coins = 2, expected = 2 PASS
+G.coins = 3, expected = 3 PASS
+Test player 0 with 1 treasure card(s) and 1 bonus.
+G.coins = 2, expected = 2 PASS
+G.coins = 3, expected = 3 PASS
+G.coins = 4, expected = 4 PASS
+Test player 0 with 1 treasure card(s) and 2 bonus.
+G.coins = 3, expected = 3 PASS
+G.coins = 4, expected = 4 PASS
+G.coins = 5, expected = 5 PASS
+Test player 0 with 1 treasure card(s) and 3 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 5, expected = 5 PASS
+G.coins = 6, expected = 6 PASS
+Test player 0 with 1 treasure card(s) and 4 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 6, expected = 6 PASS
+G.coins = 7, expected = 7 PASS
+Test player 0 with 1 treasure card(s) and 5 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 7, expected = 7 PASS
+G.coins = 8, expected = 8 PASS
+Test player 0 with 1 treasure card(s) and 6 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 9, expected = 9 PASS
+Test player 0 with 1 treasure card(s) and 7 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 10, expected = 10 PASS
+Test player 0 with 1 treasure card(s) and 8 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 11, expected = 11 PASS
+Test player 0 with 1 treasure card(s) and 9 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 12, expected = 12 PASS
+Test player 0 with 1 treasure card(s) and 10 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 13, expected = 13 PASS
+Test player 0 with 2 treasure card(s) and 0 bonus.
+G.coins = 2, expected = 2 PASS
+G.coins = 4, expected = 4 PASS
+G.coins = 6, expected = 6 PASS
+Test player 0 with 2 treasure card(s) and 1 bonus.
+G.coins = 3, expected = 3 PASS
+G.coins = 5, expected = 5 PASS
+G.coins = 7, expected = 7 PASS
+Test player 0 with 2 treasure card(s) and 2 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 6, expected = 6 PASS
+G.coins = 8, expected = 8 PASS
+Test player 0 with 2 treasure card(s) and 3 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 7, expected = 7 PASS
+G.coins = 9, expected = 9 PASS
+Test player 0 with 2 treasure card(s) and 4 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 10, expected = 10 PASS
+Test player 0 with 2 treasure card(s) and 5 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 11, expected = 11 PASS
+Test player 0 with 2 treasure card(s) and 6 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 12, expected = 12 PASS
+Test player 0 with 2 treasure card(s) and 7 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 13, expected = 13 PASS
+Test player 0 with 2 treasure card(s) and 8 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 14, expected = 14 PASS
+Test player 0 with 2 treasure card(s) and 9 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 13, expected = 13 PASS
+G.coins = 15, expected = 15 PASS
+Test player 0 with 2 treasure card(s) and 10 bonus.
+G.coins = 12, expected = 12 PASS
+G.coins = 14, expected = 14 PASS
+G.coins = 16, expected = 16 PASS
+Test player 0 with 3 treasure card(s) and 0 bonus.
+G.coins = 3, expected = 3 PASS
+G.coins = 6, expected = 6 PASS
+G.coins = 9, expected = 9 PASS
+Test player 0 with 3 treasure card(s) and 1 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 7, expected = 7 PASS
+G.coins = 10, expected = 10 PASS
+Test player 0 with 3 treasure card(s) and 2 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 11, expected = 11 PASS
+Test player 0 with 3 treasure card(s) and 3 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 12, expected = 12 PASS
+Test player 0 with 3 treasure card(s) and 4 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 13, expected = 13 PASS
+Test player 0 with 3 treasure card(s) and 5 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 14, expected = 14 PASS
+Test player 0 with 3 treasure card(s) and 6 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 15, expected = 15 PASS
+Test player 0 with 3 treasure card(s) and 7 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 13, expected = 13 PASS
+G.coins = 16, expected = 16 PASS
+Test player 0 with 3 treasure card(s) and 8 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 14, expected = 14 PASS
+G.coins = 17, expected = 17 PASS
+Test player 0 with 3 treasure card(s) and 9 bonus.
+G.coins = 12, expected = 12 PASS
+G.coins = 15, expected = 15 PASS
+G.coins = 18, expected = 18 PASS
+Test player 0 with 3 treasure card(s) and 10 bonus.
+G.coins = 13, expected = 13 PASS
+G.coins = 16, expected = 16 PASS
+G.coins = 19, expected = 19 PASS
+Test player 0 with 4 treasure card(s) and 0 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 12, expected = 12 PASS
+Test player 0 with 4 treasure card(s) and 1 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 13, expected = 13 PASS
+Test player 0 with 4 treasure card(s) and 2 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 14, expected = 14 PASS
+Test player 0 with 4 treasure card(s) and 3 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 15, expected = 15 PASS
+Test player 0 with 4 treasure card(s) and 4 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 16, expected = 16 PASS
+Test player 0 with 4 treasure card(s) and 5 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 13, expected = 13 PASS
+G.coins = 17, expected = 17 PASS
+Test player 0 with 4 treasure card(s) and 6 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 14, expected = 14 PASS
+G.coins = 18, expected = 18 PASS
+Test player 0 with 4 treasure card(s) and 7 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 15, expected = 15 PASS
+G.coins = 19, expected = 19 PASS
+Test player 0 with 4 treasure card(s) and 8 bonus.
+G.coins = 12, expected = 12 PASS
+G.coins = 16, expected = 16 PASS
+G.coins = 20, expected = 20 PASS
+Test player 0 with 4 treasure card(s) and 9 bonus.
+G.coins = 13, expected = 13 PASS
+G.coins = 17, expected = 17 PASS
+G.coins = 21, expected = 21 PASS
+Test player 0 with 4 treasure card(s) and 10 bonus.
+G.coins = 14, expected = 14 PASS
+G.coins = 18, expected = 18 PASS
+G.coins = 22, expected = 22 PASS
+Test player 0 with 5 treasure card(s) and 0 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 15, expected = 15 PASS
+Test player 0 with 5 treasure card(s) and 1 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 16, expected = 16 PASS
+Test player 0 with 5 treasure card(s) and 2 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 17, expected = 17 PASS
+Test player 0 with 5 treasure card(s) and 3 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 13, expected = 13 PASS
+G.coins = 18, expected = 18 PASS
+Test player 0 with 5 treasure card(s) and 4 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 14, expected = 14 PASS
+G.coins = 19, expected = 19 PASS
+Test player 0 with 5 treasure card(s) and 5 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 15, expected = 15 PASS
+G.coins = 20, expected = 20 PASS
+Test player 0 with 5 treasure card(s) and 6 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 16, expected = 16 PASS
+G.coins = 21, expected = 21 PASS
+Test player 0 with 5 treasure card(s) and 7 bonus.
+G.coins = 12, expected = 12 PASS
+G.coins = 17, expected = 17 PASS
+G.coins = 22, expected = 22 PASS
+Test player 0 with 5 treasure card(s) and 8 bonus.
+G.coins = 13, expected = 13 PASS
+G.coins = 18, expected = 18 PASS
+G.coins = 23, expected = 23 PASS
+Test player 0 with 5 treasure card(s) and 9 bonus.
+G.coins = 14, expected = 14 PASS
+G.coins = 19, expected = 19 PASS
+G.coins = 24, expected = 24 PASS
+Test player 0 with 5 treasure card(s) and 10 bonus.
+G.coins = 15, expected = 15 PASS
+G.coins = 20, expected = 20 PASS
+G.coins = 25, expected = 25 PASS
+Test player 1 with 0 treasure card(s) and 0 bonus.
+G.coins = 0, expected = 0 PASS
+G.coins = 0, expected = 0 PASS
+G.coins = 0, expected = 0 PASS
+Test player 1 with 0 treasure card(s) and 1 bonus.
+G.coins = 1, expected = 1 PASS
+G.coins = 1, expected = 1 PASS
+G.coins = 1, expected = 1 PASS
+Test player 1 with 0 treasure card(s) and 2 bonus.
+G.coins = 2, expected = 2 PASS
+G.coins = 2, expected = 2 PASS
+G.coins = 2, expected = 2 PASS
+Test player 1 with 0 treasure card(s) and 3 bonus.
+G.coins = 3, expected = 3 PASS
+G.coins = 3, expected = 3 PASS
+G.coins = 3, expected = 3 PASS
+Test player 1 with 0 treasure card(s) and 4 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 4, expected = 4 PASS
+G.coins = 4, expected = 4 PASS
+Test player 1 with 0 treasure card(s) and 5 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 5, expected = 5 PASS
+G.coins = 5, expected = 5 PASS
+Test player 1 with 0 treasure card(s) and 6 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 6, expected = 6 PASS
+G.coins = 6, expected = 6 PASS
+Test player 1 with 0 treasure card(s) and 7 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 7, expected = 7 PASS
+G.coins = 7, expected = 7 PASS
+Test player 1 with 0 treasure card(s) and 8 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 8, expected = 8 PASS
+Test player 1 with 0 treasure card(s) and 9 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 9, expected = 9 PASS
+Test player 1 with 0 treasure card(s) and 10 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 10, expected = 10 PASS
+Test player 1 with 1 treasure card(s) and 0 bonus.
+G.coins = 1, expected = 1 PASS
+G.coins = 2, expected = 2 PASS
+G.coins = 3, expected = 3 PASS
+Test player 1 with 1 treasure card(s) and 1 bonus.
+G.coins = 2, expected = 2 PASS
+G.coins = 3, expected = 3 PASS
+G.coins = 4, expected = 4 PASS
+Test player 1 with 1 treasure card(s) and 2 bonus.
+G.coins = 3, expected = 3 PASS
+G.coins = 4, expected = 4 PASS
+G.coins = 5, expected = 5 PASS
+Test player 1 with 1 treasure card(s) and 3 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 5, expected = 5 PASS
+G.coins = 6, expected = 6 PASS
+Test player 1 with 1 treasure card(s) and 4 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 6, expected = 6 PASS
+G.coins = 7, expected = 7 PASS
+Test player 1 with 1 treasure card(s) and 5 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 7, expected = 7 PASS
+G.coins = 8, expected = 8 PASS
+Test player 1 with 1 treasure card(s) and 6 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 9, expected = 9 PASS
+Test player 1 with 1 treasure card(s) and 7 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 10, expected = 10 PASS
+Test player 1 with 1 treasure card(s) and 8 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 11, expected = 11 PASS
+Test player 1 with 1 treasure card(s) and 9 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 12, expected = 12 PASS
+Test player 1 with 1 treasure card(s) and 10 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 13, expected = 13 PASS
+Test player 1 with 2 treasure card(s) and 0 bonus.
+G.coins = 2, expected = 2 PASS
+G.coins = 4, expected = 4 PASS
+G.coins = 6, expected = 6 PASS
+Test player 1 with 2 treasure card(s) and 1 bonus.
+G.coins = 3, expected = 3 PASS
+G.coins = 5, expected = 5 PASS
+G.coins = 7, expected = 7 PASS
+Test player 1 with 2 treasure card(s) and 2 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 6, expected = 6 PASS
+G.coins = 8, expected = 8 PASS
+Test player 1 with 2 treasure card(s) and 3 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 7, expected = 7 PASS
+G.coins = 9, expected = 9 PASS
+Test player 1 with 2 treasure card(s) and 4 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 10, expected = 10 PASS
+Test player 1 with 2 treasure card(s) and 5 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 11, expected = 11 PASS
+Test player 1 with 2 treasure card(s) and 6 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 12, expected = 12 PASS
+Test player 1 with 2 treasure card(s) and 7 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 13, expected = 13 PASS
+Test player 1 with 2 treasure card(s) and 8 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 14, expected = 14 PASS
+Test player 1 with 2 treasure card(s) and 9 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 13, expected = 13 PASS
+G.coins = 15, expected = 15 PASS
+Test player 1 with 2 treasure card(s) and 10 bonus.
+G.coins = 12, expected = 12 PASS
+G.coins = 14, expected = 14 PASS
+G.coins = 16, expected = 16 PASS
+Test player 1 with 3 treasure card(s) and 0 bonus.
+G.coins = 3, expected = 3 PASS
+G.coins = 6, expected = 6 PASS
+G.coins = 9, expected = 9 PASS
+Test player 1 with 3 treasure card(s) and 1 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 7, expected = 7 PASS
+G.coins = 10, expected = 10 PASS
+Test player 1 with 3 treasure card(s) and 2 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 11, expected = 11 PASS
+Test player 1 with 3 treasure card(s) and 3 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 12, expected = 12 PASS
+Test player 1 with 3 treasure card(s) and 4 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 13, expected = 13 PASS
+Test player 1 with 3 treasure card(s) and 5 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 14, expected = 14 PASS
+Test player 1 with 3 treasure card(s) and 6 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 15, expected = 15 PASS
+Test player 1 with 3 treasure card(s) and 7 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 13, expected = 13 PASS
+G.coins = 16, expected = 16 PASS
+Test player 1 with 3 treasure card(s) and 8 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 14, expected = 14 PASS
+G.coins = 17, expected = 17 PASS
+Test player 1 with 3 treasure card(s) and 9 bonus.
+G.coins = 12, expected = 12 PASS
+G.coins = 15, expected = 15 PASS
+G.coins = 18, expected = 18 PASS
+Test player 1 with 3 treasure card(s) and 10 bonus.
+G.coins = 13, expected = 13 PASS
+G.coins = 16, expected = 16 PASS
+G.coins = 19, expected = 19 PASS
+Test player 1 with 4 treasure card(s) and 0 bonus.
+G.coins = 4, expected = 4 PASS
+G.coins = 8, expected = 8 PASS
+G.coins = 12, expected = 12 PASS
+Test player 1 with 4 treasure card(s) and 1 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 9, expected = 9 PASS
+G.coins = 13, expected = 13 PASS
+Test player 1 with 4 treasure card(s) and 2 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 14, expected = 14 PASS
+Test player 1 with 4 treasure card(s) and 3 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 15, expected = 15 PASS
+Test player 1 with 4 treasure card(s) and 4 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 16, expected = 16 PASS
+Test player 1 with 4 treasure card(s) and 5 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 13, expected = 13 PASS
+G.coins = 17, expected = 17 PASS
+Test player 1 with 4 treasure card(s) and 6 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 14, expected = 14 PASS
+G.coins = 18, expected = 18 PASS
+Test player 1 with 4 treasure card(s) and 7 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 15, expected = 15 PASS
+G.coins = 19, expected = 19 PASS
+Test player 1 with 4 treasure card(s) and 8 bonus.
+G.coins = 12, expected = 12 PASS
+G.coins = 16, expected = 16 PASS
+G.coins = 20, expected = 20 PASS
+Test player 1 with 4 treasure card(s) and 9 bonus.
+G.coins = 13, expected = 13 PASS
+G.coins = 17, expected = 17 PASS
+G.coins = 21, expected = 21 PASS
+Test player 1 with 4 treasure card(s) and 10 bonus.
+G.coins = 14, expected = 14 PASS
+G.coins = 18, expected = 18 PASS
+G.coins = 22, expected = 22 PASS
+Test player 1 with 5 treasure card(s) and 0 bonus.
+G.coins = 5, expected = 5 PASS
+G.coins = 10, expected = 10 PASS
+G.coins = 15, expected = 15 PASS
+Test player 1 with 5 treasure card(s) and 1 bonus.
+G.coins = 6, expected = 6 PASS
+G.coins = 11, expected = 11 PASS
+G.coins = 16, expected = 16 PASS
+Test player 1 with 5 treasure card(s) and 2 bonus.
+G.coins = 7, expected = 7 PASS
+G.coins = 12, expected = 12 PASS
+G.coins = 17, expected = 17 PASS
+Test player 1 with 5 treasure card(s) and 3 bonus.
+G.coins = 8, expected = 8 PASS
+G.coins = 13, expected = 13 PASS
+G.coins = 18, expected = 18 PASS
+Test player 1 with 5 treasure card(s) and 4 bonus.
+G.coins = 9, expected = 9 PASS
+G.coins = 14, expected = 14 PASS
+G.coins = 19, expected = 19 PASS
+Test player 1 with 5 treasure card(s) and 5 bonus.
+G.coins = 10, expected = 10 PASS
+G.coins = 15, expected = 15 PASS
+G.coins = 20, expected = 20 PASS
+Test player 1 with 5 treasure card(s) and 6 bonus.
+G.coins = 11, expected = 11 PASS
+G.coins = 16, expected = 16 PASS
+G.coins = 21, expected = 21 PASS
+Test player 1 with 5 treasure card(s) and 7 bonus.
+G.coins = 12, expected = 12 PASS
+G.coins = 17, expected = 17 PASS
+G.coins = 22, expected = 22 PASS
+Test player 1 with 5 treasure card(s) and 8 bonus.
+G.coins = 13, expected = 13 PASS
+G.coins = 18, expected = 18 PASS
+G.coins = 23, expected = 23 PASS
+Test player 1 with 5 treasure card(s) and 9 bonus.
+G.coins = 14, expected = 14 PASS
+G.coins = 19, expected = 19 PASS
+G.coins = 24, expected = 24 PASS
+Test player 1 with 5 treasure card(s) and 10 bonus.
+G.coins = 15, expected = 15 PASS
+G.coins = 20, expected = 20 PASS
+G.coins = 25, expected = 25 PASS
+396 of 396 tests passed!
+unittest2.c:
+TESTING drawCard():
+Test player 0 with 0 in deck 0 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 0, expected = 0 PASS
+Test player 0 with 0 in deck 0 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in deck 0 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in deck 0 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in deck 0 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in deck 1 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in deck 1 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in deck 1 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in deck 1 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in deck 1 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 0 in deck 2 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in deck 2 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in deck 2 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in deck 2 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in deck 2 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 0 in deck 3 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in deck 3 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in deck 3 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in deck 3 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in deck 3 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 0 in deck 4 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in deck 4 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in deck 4 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in deck 4 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in deck 4 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in deck 0 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in deck 0 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in deck 0 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in deck 0 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in deck 0 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in deck 1 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in deck 1 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in deck 1 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in deck 1 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in deck 1 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in deck 2 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in deck 2 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in deck 2 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in deck 2 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in deck 2 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in deck 3 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in deck 3 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in deck 3 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in deck 3 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in deck 3 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in deck 4 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in deck 4 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in deck 4 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in deck 4 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in deck 4 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in deck 0 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in deck 0 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in deck 0 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in deck 0 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in deck 0 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in deck 1 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in deck 1 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in deck 1 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in deck 1 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in deck 1 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in deck 2 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in deck 2 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in deck 2 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in deck 2 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in deck 2 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in deck 3 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in deck 3 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in deck 3 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in deck 3 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in deck 3 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in deck 4 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in deck 4 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in deck 4 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in deck 4 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in deck 4 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in deck 0 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in deck 0 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in deck 0 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in deck 0 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in deck 0 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in deck 1 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in deck 1 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in deck 1 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in deck 1 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in deck 1 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in deck 2 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in deck 2 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in deck 2 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in deck 2 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in deck 2 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in deck 3 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in deck 3 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in deck 3 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in deck 3 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in deck 3 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in deck 4 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in deck 4 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in deck 4 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in deck 4 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in deck 4 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in deck 0 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in deck 0 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in deck 0 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in deck 0 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in deck 0 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in deck 1 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in deck 1 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in deck 1 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in deck 1 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in deck 1 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in deck 2 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in deck 2 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in deck 2 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in deck 2 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in deck 2 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in deck 3 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in deck 3 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in deck 3 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in deck 3 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in deck 3 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in deck 4 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in deck 4 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in deck 4 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in deck 4 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in deck 4 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in deck 0 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 0, expected = 0 PASS
+Test player 1 with 0 in deck 0 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in deck 0 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in deck 0 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in deck 0 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in deck 1 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in deck 1 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in deck 1 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in deck 1 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in deck 1 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in deck 2 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in deck 2 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in deck 2 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in deck 2 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in deck 2 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in deck 3 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in deck 3 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in deck 3 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in deck 3 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in deck 3 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in deck 4 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in deck 4 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in deck 4 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in deck 4 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in deck 4 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in deck 0 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in deck 0 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in deck 0 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in deck 0 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in deck 0 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in deck 1 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in deck 1 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in deck 1 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in deck 1 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in deck 1 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in deck 2 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in deck 2 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in deck 2 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in deck 2 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in deck 2 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in deck 3 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in deck 3 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in deck 3 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in deck 3 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in deck 3 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in deck 4 in discard and 0 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in deck 4 in discard and 1 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in deck 4 in discard and 2 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in deck 4 in discard and 3 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in deck 4 in discard and 4 in hand.
+G.deckCount = 0, expected = 0 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in deck 0 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in deck 0 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in deck 0 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in deck 0 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in deck 0 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in deck 1 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in deck 1 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in deck 1 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in deck 1 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in deck 1 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in deck 2 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in deck 2 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in deck 2 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in deck 2 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in deck 2 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in deck 3 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in deck 3 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in deck 3 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in deck 3 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in deck 3 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in deck 4 in discard and 0 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in deck 4 in discard and 1 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in deck 4 in discard and 2 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in deck 4 in discard and 3 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in deck 4 in discard and 4 in hand.
+G.deckCount = 1, expected = 1 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in deck 0 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in deck 0 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in deck 0 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in deck 0 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in deck 0 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in deck 1 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in deck 1 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in deck 1 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in deck 1 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in deck 1 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in deck 2 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in deck 2 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in deck 2 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in deck 2 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in deck 2 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in deck 3 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in deck 3 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in deck 3 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in deck 3 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in deck 3 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in deck 4 in discard and 0 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in deck 4 in discard and 1 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in deck 4 in discard and 2 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in deck 4 in discard and 3 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in deck 4 in discard and 4 in hand.
+G.deckCount = 2, expected = 2 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in deck 0 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in deck 0 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in deck 0 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in deck 0 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in deck 0 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in deck 1 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in deck 1 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in deck 1 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in deck 1 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in deck 1 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in deck 2 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in deck 2 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in deck 2 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in deck 2 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in deck 2 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in deck 3 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in deck 3 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in deck 3 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in deck 3 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in deck 3 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in deck 4 in discard and 0 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in deck 4 in discard and 1 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in deck 4 in discard and 2 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in deck 4 in discard and 3 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in deck 4 in discard and 4 in hand.
+G.deckCount = 3, expected = 3 PASS
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+750 of 750 tests passed!
+unittest3.c:
+TESTING gainCard():
+Test player 0 with 0 in discard 0 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in discard 0 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in discard 0 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in discard 0 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard 0 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 0 in discard 1 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in discard 1 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in discard 1 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in discard 1 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard 1 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 0 in discard 2 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in discard 2 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in discard 2 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in discard 2 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard 2 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 0 in discard 3 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in discard 3 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in discard 3 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in discard 3 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard 3 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 0 in discard 4 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 0 in discard 4 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 0 in discard 4 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 0 in discard 4 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard 4 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in discard 0 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in discard 0 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in discard 0 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in discard 0 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard 0 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in discard 1 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in discard 1 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in discard 1 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in discard 1 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard 1 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in discard 2 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in discard 2 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in discard 2 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in discard 2 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard 2 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in discard 3 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in discard 3 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in discard 3 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in discard 3 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard 3 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 1 in discard 4 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 1 in discard 4 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 1 in discard 4 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 1 in discard 4 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard 4 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in discard 0 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in discard 0 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in discard 0 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in discard 0 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard 0 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in discard 1 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in discard 1 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in discard 1 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in discard 1 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard 1 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in discard 2 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in discard 2 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in discard 2 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in discard 2 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard 2 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in discard 3 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in discard 3 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in discard 3 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in discard 3 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard 3 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 2 in discard 4 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 2 in discard 4 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 2 in discard 4 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 2 in discard 4 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard 4 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in discard 0 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in discard 0 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in discard 0 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in discard 0 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard 0 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in discard 1 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in discard 1 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in discard 1 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in discard 1 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard 1 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in discard 2 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in discard 2 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in discard 2 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in discard 2 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard 2 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in discard 3 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in discard 3 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in discard 3 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in discard 3 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard 3 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 3 in discard 4 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 3 in discard 4 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 3 in discard 4 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 3 in discard 4 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard 4 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in discard 0 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in discard 0 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in discard 0 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in discard 0 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard 0 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in discard 1 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in discard 1 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in discard 1 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in discard 1 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard 1 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in discard 2 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in discard 2 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in discard 2 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in discard 2 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard 2 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in discard 3 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in discard 3 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in discard 3 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in discard 3 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard 3 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 0 with 4 in discard 4 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 0 with 4 in discard 4 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 0 with 4 in discard 4 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 0 with 4 in discard 4 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard 4 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in discard 0 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in discard 0 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in discard 0 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in discard 0 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard 0 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in discard 1 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in discard 1 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in discard 1 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in discard 1 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard 1 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in discard 2 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in discard 2 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in discard 2 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in discard 2 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard 2 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in discard 3 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in discard 3 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in discard 3 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in discard 3 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard 3 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 0 in discard 4 in deck and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 0 in discard 4 in deck and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 0 in discard 4 in deck and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 0 in discard 4 in deck and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard 4 in deck and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in discard 0 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in discard 0 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in discard 0 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in discard 0 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard 0 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in discard 1 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in discard 1 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in discard 1 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in discard 1 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard 1 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in discard 2 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in discard 2 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in discard 2 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in discard 2 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard 2 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in discard 3 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in discard 3 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in discard 3 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in discard 3 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard 3 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 1 in discard 4 in deck and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 1 in discard 4 in deck and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 1 in discard 4 in deck and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 1 in discard 4 in deck and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard 4 in deck and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in discard 0 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in discard 0 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in discard 0 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in discard 0 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard 0 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in discard 1 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in discard 1 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in discard 1 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in discard 1 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard 1 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in discard 2 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in discard 2 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in discard 2 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in discard 2 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard 2 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in discard 3 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in discard 3 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in discard 3 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in discard 3 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard 3 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 2 in discard 4 in deck and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 2 in discard 4 in deck and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 2 in discard 4 in deck and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 2 in discard 4 in deck and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard 4 in deck and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in discard 0 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in discard 0 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in discard 0 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in discard 0 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard 0 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in discard 1 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in discard 1 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in discard 1 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in discard 1 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard 1 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in discard 2 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in discard 2 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in discard 2 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in discard 2 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard 2 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in discard 3 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in discard 3 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in discard 3 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in discard 3 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard 3 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 3 in discard 4 in deck and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 3 in discard 4 in deck and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 3 in discard 4 in deck and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 3 in discard 4 in deck and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard 4 in deck and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in discard 0 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in discard 0 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in discard 0 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in discard 0 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard 0 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 1, expected = 1 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in discard 1 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in discard 1 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in discard 1 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in discard 1 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard 1 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 2, expected = 2 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in discard 2 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in discard 2 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in discard 2 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in discard 2 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard 2 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 3, expected = 3 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in discard 3 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in discard 3 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in discard 3 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in discard 3 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard 3 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 4, expected = 4 PASS
+G.handCount = 5, expected = 5 PASS
+Test player 1 with 4 in discard 4 in deck and 0 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 1, expected = 1 PASS
+Test player 1 with 4 in discard 4 in deck and 1 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 2, expected = 2 PASS
+Test player 1 with 4 in discard 4 in deck and 2 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 3, expected = 3 PASS
+Test player 1 with 4 in discard 4 in deck and 3 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard 4 in deck and 4 in hand.
+G.discardCount = 5, expected = 5 PASS
+G.deckCount = 5, expected = 5 PASS
+G.handCount = 5, expected = 5 PASS
+750 of 750 tests passed!
+unittest4.c:
+TESTING discardCard():
+Test player 0 with 0 in discard and 0 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 0 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 1 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 1 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 2 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 2 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 3 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 3 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 4 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 0 in discard and 4 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 0 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 1 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 2 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 3 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 4 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 1 in discard and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 0 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 1 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 2 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 3 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 4 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 2 in discard and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 0 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 1 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 2 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 3 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 4 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 3 in discard and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 0 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 1 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 2 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 3 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 4 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 0 with 4 in discard and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 0 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 0 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 1 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 1 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 2 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 2 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 3 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 3 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 4 in hand.
+G.discardCount = 0, expected = 1 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 0 in discard and 4 in hand.
+G.discardCount = 0, expected = 0 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 0 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 0 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 1 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 1 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 2 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 2 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 3 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 3 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 4 in hand.
+G.discardCount = 1, expected = 2 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 1 in discard and 4 in hand.
+G.discardCount = 1, expected = 1 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 0 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 0 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 1 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 1 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 2 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 2 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 3 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 3 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 4 in hand.
+G.discardCount = 2, expected = 3 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 2 in discard and 4 in hand.
+G.discardCount = 2, expected = 2 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 0 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 0 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 1 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 1 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 2 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 2 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 3 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 3 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 4 in hand.
+G.discardCount = 3, expected = 4 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 3 in discard and 4 in hand.
+G.discardCount = 3, expected = 3 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 0 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 0 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 1 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 1 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 2 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 2 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 3 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 3 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 4 in hand.
+G.discardCount = 4, expected = 5 FAIL
+G.handCount = 4, expected = 4 PASS
+Test player 1 with 4 in discard and 4 in hand.
+G.discardCount = 4, expected = 4 PASS
+G.handCount = 4, expected = 4 PASS
+150 of 200 tests passed!
+cardtest1.c:
+TESTING adventurer:
+CALLED cardEffect with adventurer
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 7, expected = 6 FAIL
+deck count = 3, expected = 3 PASS
+discard count = 1, expected = 0 FAIL
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+discard count = 0, expected = 0 PASS
+played count = 0, expected = 1 FAIL
+coin count = 4, expected = 4 PASS
+5 of 8 tests passed!
+CALLED cardEffect with adventurer and deckCount 0
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 5, expected = 6 FAIL
+deck count = 0, expected = -2 FAIL
+discard count = 1, expected = 0 FAIL
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+discard count = 0, expected = 0 PASS
+played count = 0, expected = 1 FAIL
+coin count = 4, expected = 4 PASS
+4 of 8 tests passed!
+CALLED cardEffect with adventurer and cardDrawn is silver
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 7, expected = 6 FAIL
+deck count = 3, expected = 3 PASS
+discard count = 1, expected = 0 FAIL
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+discard count = 0, expected = 0 PASS
+played count = 0, expected = 1 FAIL
+coin count = 4, expected = 4 PASS
+5 of 8 tests passed!
+CALLED adventurerEffect
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 7, expected = 6 FAIL
+deck count = 3, expected = 3 PASS
+discard count = 1, expected = 0 FAIL
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+discard count = 0, expected = 0 PASS
+played count = 0, expected = 1 FAIL
+coin count = 4, expected = 4 PASS
+5 of 8 tests passed!
+cardtest2.c:
+TESTING smithy:
+CALLED cardEffect with smithy
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 8, expected = 7 FAIL
+deck count = 1, expected = 2 FAIL
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 1, expected = 1 PASS
+coin count = 4, expected = 4 PASS
+4 of 6 tests passed!
+CALLED smithyEffect
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 8, expected = 7 FAIL
+deck count = 1, expected = 2 FAIL
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 1, expected = 1 PASS
+coin count = 4, expected = 4 PASS
+4 of 6 tests passed!
+cardtest3.c:
+TESTING mine:
+CALLED cardEffect with mine
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 4, expected = 5 FAIL
+deck count = 5, expected = 5 PASS
+Player 0's hand:
+#  Card
+0  Copper       
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Player 0's hand:
+#  Card
+0  Gold         
+1  Copper       
+2  Estate       
+3  Copper       
+
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 2, expected = 0 FAIL
+coin count = 4, expected = 4 PASS
+4 of 6 tests passed!
+CALLED cardEffect with mine
+ = -1, expected = 0 FAIL
+Test player 0
+player hand count = 5, expected = 5 PASS
+deck count = 5, expected = 5 PASS
+Player 0's hand:
+#  Card
+0  Silver       
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Player 0's hand:
+#  Card
+0  Silver       
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 0, expected = 0 PASS
+coin count = 4, expected = 4 PASS
+6 of 6 tests passed!
+CALLED cardEffect with mine and choice1 = gold
+ = -1, expected = 0 FAIL
+Test player 0
+player hand count = 5, expected = 5 PASS
+deck count = 5, expected = 5 PASS
+Player 0's hand:
+#  Card
+0  Gold         
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Player 0's hand:
+#  Card
+0  Gold         
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 0, expected = 0 PASS
+coin count = 4, expected = 4 PASS
+6 of 6 tests passed!
+CALLED cardEffect with mine and choice1 = curse
+ = -1, expected = 0 FAIL
+Test player 0
+player hand count = 5, expected = 5 PASS
+deck count = 5, expected = 5 PASS
+Player 0's hand:
+#  Card
+0  Curse        
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Player 0's hand:
+#  Card
+0  Curse        
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 0, expected = 0 PASS
+coin count = 4, expected = 4 PASS
+6 of 6 tests passed!
+CALLED cardEffect with mine and choice2 < curse
+ = -1, expected = 0 FAIL
+Test player 0
+player hand count = 5, expected = 5 PASS
+deck count = 5, expected = 5 PASS
+Player 0's hand:
+#  Card
+0  Copper       
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Player 0's hand:
+#  Card
+0  Copper       
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 0, expected = 0 PASS
+coin count = 4, expected = 4 PASS
+6 of 6 tests passed!
+CALLED cardEffect with mine and choice2 > treasure_map
+ = -1, expected = 0 FAIL
+Test player 0
+player hand count = 5, expected = 5 PASS
+deck count = 5, expected = 5 PASS
+Player 0's hand:
+#  Card
+0  Copper       
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Player 0's hand:
+#  Card
+0  Copper       
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 0, expected = 0 PASS
+coin count = 4, expected = 4 PASS
+6 of 6 tests passed!
+CALLED mineEffect
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 4, expected = 5 FAIL
+deck count = 5, expected = 5 PASS
+Player 0's hand:
+#  Card
+0  Copper       
+1  Copper       
+2  Estate       
+3  Copper       
+4  Copper       
+
+Player 0's hand:
+#  Card
+0  Gold         
+1  Copper       
+2  Estate       
+3  Copper       
+
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 10, expected = 10 PASS
+played count = 2, expected = 0 FAIL
+coin count = 4, expected = 4 PASS
+4 of 6 tests passed!
+cardtest4.c:
+TESTING sea_hag:
+CALLED cardEffect with sea_hag
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 5, expected = 5 PASS
+deck count = 5, expected = 5 PASS
+discard count = 0, expected = 0 PASS
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 7, expected = 10 FAIL
+discard count = 1, expected = 1 PASS
+played count = 0, expected = 0 PASS
+coin count = 4, expected = 4 PASS
+7 of 8 tests passed!
+CALLED sea_hagEffect
+ = 0, expected = 0 PASS
+Test player 0
+player hand count = 5, expected = 5 PASS
+deck count = 5, expected = 5 PASS
+discard count = 0, expected = 0 PASS
+Test player 1
+hand count = 0, expected = 0 PASS
+deck count = 7, expected = 10 FAIL
+discard count = 1, expected = 1 PASS
+played count = 0, expected = 0 PASS
+coin count = 4, expected = 4 PASS
+7 of 8 tests passed!
+File 'dominion.c'
+Lines executed:33.33% of 651
+Branches executed:38.13% of 417
+Taken at least once:25.18% of 417
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
