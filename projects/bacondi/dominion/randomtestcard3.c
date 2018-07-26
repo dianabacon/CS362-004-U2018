@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------------------
- * Unit test for mine
- * Trash a Treasure card from your hand. 
- * Gain a Treasure card to your hand costing up to $3 more.
+ * Unit test for sea_hag
+ * Each other player discards the top card of their deck, then adds a 
+ * Curse card to the top of their deck.
  * -----------------------------------------------------------------------
  */
 
@@ -17,11 +17,10 @@
 // set NOISY_TEST to 0 to remove printfs from output
 #define NOISY_TEST 1
 
-int mineEffect(struct gameState *state, int choice1, int choice2, int handPos);
+int sea_hagEffect(struct gameState *state);
 
 int myTest (struct gameState *pre, struct gameState *post)
 {
-
   int numFails = 0;
   int numTests = 0;
 
@@ -31,28 +30,25 @@ int myTest (struct gameState *pre, struct gameState *post)
   printf("Test player %d\n", p);
 #endif
 
-  numTests += 2;
+  numTests += 3;
   numFails += intAssert("player hand count",post->handCount[p], 
     pre->handCount[p] );
   numFails += intAssert("deck count",post->deckCount[p], 
-    pre->deckCount[p] );
-
-  // show player's hand
-#ifdef NOISY_TEST
-  printHand(p,pre);
-  printHand(p,post);
-#endif
-
+    pre->deckCount[p]);
+  numFails += intAssert("discard count",post->discardCount[p], 
+    pre->discardCount[p]);
   p++;
 #ifdef NOISY_TEST
   printf("Test player %d\n", p);
 #endif
 
-  numTests += 2;
+  numTests += 3;
   numFails += intAssert("hand count",post->handCount[p], 
     pre->handCount[p]);
   numFails += intAssert("deck count",post->deckCount[p], 
     pre->deckCount[p]);
+  numFails += intAssert("discard count",post->discardCount[p], 
+    pre->discardCount[p] + 1);
 
   numTests += 2;
   numFails += intAssert("played count",post->playedCardCount, 
@@ -67,7 +63,7 @@ int myTest (struct gameState *pre, struct gameState *post)
 
 int main() {
   int r;
-  int handPos = 0, choice1 = -1, choice2 = -1, choice3 = -1, bonus = 0;
+  int handPos = 0, choice1 =-1, choice2 =-1, choice3 = -1, bonus = 0;
   int seed = 1000;
   int numPlayer = 2;
 
@@ -75,95 +71,26 @@ int main() {
    remodel, smithy, village, baron, great_hall};
 
   struct gameState pre, post;
-
-  printf ("TESTING mine:\n");
+  printf ("TESTING sea_hag:\n");
 
   // initialize game state
   memset(&pre, 23, sizeof(struct gameState)); 
   memset(&post, 23, sizeof(struct gameState)); 
   r = initializeGame(numPlayer, k, seed, &pre);
-  choice1 = 0; // hand# of money to trash
-  choice2 = gold; // supply# of money to put in hand (gold)
   post = pre;
 
-  r = cardEffect(mine, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with mine\n",r, 0);
+  r = cardEffect(sea_hag, choice1, choice2, choice3, &post, handPos, &bonus);
+  intAssert("CALLED cardEffect with sea_hag\n",r, 0);
   r = myTest(&pre,&post);
 
   // initialize game state
   memset(&pre, 23, sizeof(struct gameState)); 
   memset(&post, 23, sizeof(struct gameState)); 
   r = initializeGame(numPlayer, k, seed, &pre);
-  choice1 = 0; // hand# of money to trash
-  pre.hand[0][choice1] = silver;
-  choice2 = copper; // supply# of money to put in hand (bad choice)
   post = pre;
 
-  r = cardEffect(mine, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with mine\n",r, 0);
-  r = myTest(&pre,&post);
-
-
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  choice1 = 0; // hand# of money to trash
-  pre.hand[0][choice1] = gold;
-  choice2 = gold; // supply# of money to put in hand (gold)
-  post = pre;
-
-  r = cardEffect(mine, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with mine and choice1 = gold\n",r, 0);
-  r = myTest(&pre,&post);
-
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  choice1 = 0; // hand# of money to trash
-  pre.hand[0][choice1] = curse;
-  choice2 = gold; // supply# of money to put in hand (gold)
-  post = pre;
-
-  r = cardEffect(mine, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with mine and choice1 = curse\n",r, 0);
-  r = myTest(&pre,&post);
-
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  choice1 = 0; // hand# of money to trash
-  choice2 = curse-1; // supply# of money to put in hand (bad choice)
-  post = pre;
-
-  r = cardEffect(mine, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with mine and choice2 < curse\n",r, 0);
-  r = myTest(&pre,&post);
-
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  choice1 = 0; // hand# of money to trash
-  choice2 = treasure_map+1; // supply# of money to put in hand (bad choice)
-  post = pre;
-
-  r = cardEffect(mine, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with mine and choice2 > treasure_map\n",r, 0);
-  r = myTest(&pre,&post);
-
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  choice1 = 0; // hand# of money to trash
-  choice2 = 6; // supply# of money to put in hand (gold)
-  post = pre;
-
-  r = mineEffect(&post, choice1, choice2, handPos);
-  intAssert("CALLED mineEffect\n",r, 0);
+  r = sea_hagEffect(&post);
+  intAssert("CALLED sea_hagEffect\n",r, 0);
   r = myTest(&pre,&post);
 
 return 0;
