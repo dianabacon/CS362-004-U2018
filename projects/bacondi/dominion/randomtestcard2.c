@@ -1,5 +1,7 @@
 /* -----------------------------------------------------------------------
- * Unit test for smithy
+ * Unit test for sea_hag
+ * Each other player discards the top card of their deck, then adds a 
+ * Curse card to the top of their deck.
  * -----------------------------------------------------------------------
  */
 
@@ -10,17 +12,15 @@
 #include <assert.h>
 #include "rngs.h"
 #include "myAssert.h"
+#include "interface.h"
 
 // set NOISY_TEST to 0 to remove printfs from output
 #define NOISY_TEST 1
 
-int smithyEffect(struct gameState *state, int handPos);
+int sea_hagEffect(struct gameState *state);
 
 int myTest (struct gameState *pre, struct gameState *post)
 {
-  int numDrawn = 3;
-  int numPlayed = 1;
-
   int numFails = 0;
   int numTests = 0;
 
@@ -30,29 +30,31 @@ int myTest (struct gameState *pre, struct gameState *post)
   printf("Test player %d\n", p);
 #endif
 
-  numTests += 2;
+  numTests += 3;
   numFails += intAssert("player hand count",post->handCount[p], 
-    pre->handCount[p] + numDrawn - numPlayed);
+    pre->handCount[p] );
   numFails += intAssert("deck count",post->deckCount[p], 
-    pre->deckCount[p] - numDrawn);
-
+    pre->deckCount[p]);
+  numFails += intAssert("discard count",post->discardCount[p], 
+    pre->discardCount[p]);
   p++;
 #ifdef NOISY_TEST
   printf("Test player %d\n", p);
 #endif
 
-  numTests += 2;
+  numTests += 3;
   numFails += intAssert("hand count",post->handCount[p], 
     pre->handCount[p]);
   numFails += intAssert("deck count",post->deckCount[p], 
     pre->deckCount[p]);
+  numFails += intAssert("discard count",post->discardCount[p], 
+    pre->discardCount[p] + 1);
 
   numTests += 2;
   numFails += intAssert("played count",post->playedCardCount, 
-    pre->playedCardCount + numPlayed);
+    pre->playedCardCount );
   numFails += intAssert("coin count",post->coins, 
     pre->coins);
-
 
   printf("%d of %d tests passed!\n",numTests - numFails, numTests);
 
@@ -61,7 +63,7 @@ int myTest (struct gameState *pre, struct gameState *post)
 
 int main() {
   int r;
-  int handPos = 0, choice1 = -1, choice2 = -1, choice3 = -1, bonus = 0;
+  int handPos = 0, choice1 =-1, choice2 =-1, choice3 = -1, bonus = 0;
   int seed = 1000;
   int numPlayer = 2;
 
@@ -69,8 +71,7 @@ int main() {
    remodel, smithy, village, baron, great_hall};
 
   struct gameState pre, post;
-
-  printf ("TESTING smithy:\n");  
+  printf ("TESTING sea_hag:\n");
 
   // initialize game state
   memset(&pre, 23, sizeof(struct gameState)); 
@@ -78,8 +79,8 @@ int main() {
   r = initializeGame(numPlayer, k, seed, &pre);
   post = pre;
 
-  r = cardEffect(smithy, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with smithy\n",r, 0);
+  r = cardEffect(sea_hag, choice1, choice2, choice3, &post, handPos, &bonus);
+  intAssert("CALLED cardEffect with sea_hag\n",r, 0);
   r = myTest(&pre,&post);
 
   // initialize game state
@@ -88,8 +89,8 @@ int main() {
   r = initializeGame(numPlayer, k, seed, &pre);
   post = pre;
 
-  r = smithyEffect(&post, handPos);
-  intAssert("CALLED smithyEffect\n",r, 0);
+  r = sea_hagEffect(&post);
+  intAssert("CALLED sea_hagEffect\n",r, 0);
   r = myTest(&pre,&post);
 
 return 0;
