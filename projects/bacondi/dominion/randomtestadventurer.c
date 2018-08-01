@@ -1,5 +1,6 @@
 /* -----------------------------------------------------------------------
- * Unit test for adventurer
+ * Random test for adventurer
+ * Expected behavior: used to draw 2 treasure cards into hand
  * -----------------------------------------------------------------------
  */
 
@@ -7,14 +8,53 @@
 #include "dominion_helpers.h"
 #include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <assert.h>
 #include "rngs.h"
 #include "myAssert.h"
+#include "math.h"
 
 // set NOISY_TEST to 0 to remove printfs from output
 #define NOISY_TEST 1
 
 int adventurerEffect(struct gameState *state);
+
+// generate random number in range min to max-1
+int random_int(int min, int max) 
+{
+  return min + (max - min)*(double)rand()/(double)RAND_MAX;
+}
+
+// randomly initialize the game state
+int randomizeGame(struct gameState *G) 
+{
+  // start with completely random game state
+  for (int i = 0; i < (int)sizeof(struct gameState); i++) {
+    ((char*)G)[i] = floor(Random() * 256);
+  }
+
+  // randomize sizes within reasonable ranges
+  G->numPlayers = random_int(2, MAX_PLAYERS);
+  G->whoseTurn = random_int(0, G->numPlayers);
+  G->playedCardCount = 0;
+
+  for (int p = 0; p < G->numPlayers; p++) {
+    G->deckCount[p] = random_int(3, MAX_DECK);
+    G->handCount[p] = random_int(0, MAX_DECK - G->deckCount[p]);
+    G->discardCount[p] = random_int(0, MAX_DECK - G->deckCount[p] - G->handCount[p]);
+
+    // fill hand, deck and discard with random cards
+    for (int i = 0; i < G->deckCount[p]; i++)
+      G->deck[p][i] = random_int(curse, treasure_map);
+    for (int i = 0; i < G->handCount[p]; i++)
+      G->hand[p][i] = random_int(curse, treasure_map);
+    for (int i = 0; i < G->discardCount[p]; i++)
+      G->discard[p][i] = random_int(curse, treasure_map);
+    updateCoins(p, G, 0); 
+  }
+
+  return 0;
+}
 
 int myTest (struct gameState *pre, struct gameState *post)
 {
@@ -30,15 +70,17 @@ int myTest (struct gameState *pre, struct gameState *post)
   printf("Test player %d\n", p);
 #endif
 
-  numTests += 3;
+  numTests += 2;
   numFails += intAssert("player hand count",post->handCount[p], 
     pre->handCount[p] + numDrawn - numPlayed);
-  numFails += intAssert("deck count",post->deckCount[p], 
-    pre->deckCount[p] - numDrawn);
-  numFails += intAssert("discard count",post->discardCount[p], 
-    pre->discardCount[p]); // have to call endTurn to discard
+  numFails += intAssert("deck + discard count",post->deckCount[p]+post->discardCount[p], 
+    pre->deckCount[p]+pre->discardCount[p]+2); 
 
-  p++;
+  // check another player to make sure their hand is unchanged
+  if (p < MAX_PLAYERS-1)
+    p++;
+  else
+    p = 0;
 
 #ifdef NOISY_TEST
   printf("Test player %d\n", p);
@@ -50,11 +92,11 @@ int myTest (struct gameState *pre, struct gameState *post)
   numFails += intAssert("deck count",post->deckCount[p], 
     pre->deckCount[p]); 
   numFails += intAssert("discard count",post->discardCount[p], 
-    pre->discardCount[p]); // have to call endTurn to discard
+    pre->discardCount[p]); 
 
   numTests += 2;
   numFails += intAssert("played count",post->playedCardCount, 
-    pre->playedCardCount + numPlayed);
+    pre->playedCardCount);
   numFails += intAssert("coin count",post->coins, 
     pre->coins);  
   printf("%d of %d tests passed!\n",numTests - numFails, numTests);
@@ -62,63 +104,36 @@ int myTest (struct gameState *pre, struct gameState *post)
   return 0;
 }
 
-int main() {
-  int r;
+int main() 
+{
+  int r,n;
   int handPos = 0, choice1 = -1, choice2 = -1, choice3 = -1, bonus = 0;
-  int seed = 1000;
-  int numPlayer = 2;
 
-  int k[10] = {adventurer, council_room, feast, gardens, mine,
-   remodel, smithy, village, baron, great_hall};
-
-  struct gameState pre, post;
+  struct gameState pre,post;
 
   printf ("TESTING adventurer:\n");
 
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  post = pre;
+  for (n = 0; n < 1000; n++) {
+    printf ("test %d\n",n);
+    // randomize initial game state
+    r = randomizeGame(&pre);
 
-  r = cardEffect(adventurer, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with adventurer\n",r, 0);
-  r = myTest(&pre,&post);
+    // place adventurer in random location in player's hand
+    handPos = random_int(0, pre.handCount[pre.whoseTurn]-1);
+    pre.hand[pre.whoseTurn][handPos] = adventurer;
 
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  pre.deckCount[0] = 0;
-  post = pre;
+    memcpy (&post, &pre, sizeof(struct gameState));
 
-  r = cardEffect(adventurer, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with adventurer and deckCount 0\n",r, 0);
-  r = myTest(&pre,&post);
+    // make random choices of cardEffect parameters
+    bonus = random_int(0, MAX_DECK);
+    choice1 = random_int(curse, treasure_map);
+    choice2 = random_int(curse, treasure_map);
+    choice3 = random_int(curse, treasure_map);
 
-   // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  // set all cards to silver
-  for (int i=0; i<pre.handCount[0]; i++){
-    pre.hand[0][i] = silver;   
+    r = cardEffect(adventurer, choice1, choice2, choice3, &post, handPos, &bonus);
+    intAssert("CALLED cardEffect with adventurer",r, 0);
+    r = myTest(&pre,&post);
   }
-  post = pre;
-
-  r = cardEffect(adventurer, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with adventurer and cardDrawn is silver\n",r, 0);
-  r = myTest(&pre,&post);
-
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  post = pre;
-
-  r = adventurerEffect(&post);
-  intAssert("CALLED adventurerEffect\n",r, 0);
-  r = myTest(&pre,&post);
 
 return 0;
 }
