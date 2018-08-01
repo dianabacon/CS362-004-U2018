@@ -100,13 +100,22 @@ randomtestadventurer: randomtestadventurer.c dominion.o rngs.o myAssert.o interf
 	gcc -o randomtestadventurer -g  randomtestadventurer.c dominion.o rngs.o myAssert.o interface.o $(CFLAGS)
 	chmod +x randomtestadventurer
 
-randomtestresults: randomtestadventurer
+randomtestcard1: randomtestcard1.c dominion.o rngs.o myAssert.o interface.o
+	gcc -o randomtestcard1 -g  randomtestcard1.c dominion.o rngs.o myAssert.o interface.o $(CFLAGS)
+	chmod +x randomtestcard1
+
+randomtestcard2: randomtestcard2.c dominion.o rngs.o myAssert.o interface.o
+	gcc -o randomtestcard2 -g  randomtestcard2.c dominion.o rngs.o myAssert.o interface.o $(CFLAGS)
+	chmod +x randomtestcard2
+
+randomtestresults: randomtestadventurer randomtestcard1 randomtestcard2
 	echo "Running random tests:" > randomtestresults.out
 	
 	echo "randomtestadventurer.c:" >> randomtestresults.out
 	./randomtestadventurer >> randomtestresults.out
 
 	gcov -b dominion.c >> randomtestresults.out
+	cat dominion.c.gcov >> randomtestresults.out
 
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
@@ -114,4 +123,4 @@ player: player.c interface.o
 all: playdom player 
 
 clean:
-	rm -rf *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe testUpdateCoins unittestresults.out unittest? cardtest? randomtestadventurer randomtestresults.out *.dSYM
+	rm -rf *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe testUpdateCoins unittestresults.out unittest? cardtest? randomtestadventurer randomtestcard? randomtestresults.out *.dSYM

@@ -14,6 +14,9 @@
 #include "myAssert.h"
 #include "math.h"
 
+int numTests = 0;
+int numFails = 0;
+
 // set NOISY_TEST to 0 to remove printfs from output
 #define NOISY_TEST 1
 
@@ -38,12 +41,12 @@ int randomizeGame(struct gameState *G)
   G->whoseTurn = random_int(0, G->numPlayers);
   G->playedCardCount = 0;
 
+    // fill deck, hand and discard with random cards
   for (int p = 0; p < G->numPlayers; p++) {
     G->deckCount[p] = random_int(3, MAX_DECK);
     G->handCount[p] = random_int(0, MAX_DECK - G->deckCount[p]);
     G->discardCount[p] = random_int(0, MAX_DECK - G->deckCount[p] - G->handCount[p]);
 
-    // fill hand, deck and discard with random cards
     for (int i = 0; i < G->deckCount[p]; i++)
       G->deck[p][i] = random_int(curse, treasure_map);
     for (int i = 0; i < G->handCount[p]; i++)
@@ -61,9 +64,6 @@ int myTest (struct gameState *pre, struct gameState *post)
   int numDrawn = 2;
   int numPlayed = 1;
 
-  int numFails = 0;
-  int numTests = 0;
-
   int p = whoseTurn(post);  // only the player whose turn it is has a hand drawn
 
 #ifdef NOISY_TEST
@@ -77,13 +77,13 @@ int myTest (struct gameState *pre, struct gameState *post)
     pre->deckCount[p]+pre->discardCount[p]+2); 
 
   // check another player to make sure their hand is unchanged
-  if (p < MAX_PLAYERS-1)
+  if (p < pre->numPlayers-1)
     p++;
   else
     p = 0;
 
 #ifdef NOISY_TEST
-  printf("Test player %d\n", p);
+  printf("Test opponent %d\n", p);
 #endif
 
   numTests += 3;
@@ -99,7 +99,6 @@ int myTest (struct gameState *pre, struct gameState *post)
     pre->playedCardCount);
   numFails += intAssert("coin count",post->coins, 
     pre->coins);  
-  printf("%d of %d tests passed!\n",numTests - numFails, numTests);
 
   return 0;
 }
@@ -122,18 +121,24 @@ int main()
     handPos = random_int(0, pre.handCount[pre.whoseTurn]-1);
     pre.hand[pre.whoseTurn][handPos] = adventurer;
 
-    memcpy (&post, &pre, sizeof(struct gameState));
-
     // make random choices of cardEffect parameters
     bonus = random_int(0, MAX_DECK);
     choice1 = random_int(curse, treasure_map);
     choice2 = random_int(curse, treasure_map);
     choice3 = random_int(curse, treasure_map);
 
+    memcpy (&post, &pre, sizeof(struct gameState));
     r = cardEffect(adventurer, choice1, choice2, choice3, &post, handPos, &bonus);
     intAssert("CALLED cardEffect with adventurer",r, 0);
     r = myTest(&pre,&post);
+
+    memcpy (&post, &pre, sizeof(struct gameState));
+    r = adventurerEffect(&post);
+    intAssert("CALLED adventurerEffect directly\n",r, 0);
+    r = myTest(&pre,&post);
+
   }
+    printf("%d of %d tests passed!\n",numTests - numFails, numTests);
 
 return 0;
 }
