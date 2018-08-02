@@ -1,5 +1,6 @@
 /* -----------------------------------------------------------------------
  * Unit test for smithy
+ * Expected behavior: draw 3 cards into hand
  * -----------------------------------------------------------------------
  */
 
@@ -7,9 +8,15 @@
 #include "dominion_helpers.h"
 #include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <assert.h>
 #include "rngs.h"
 #include "myAssert.h"
+#include "math.h"
+#include "myUtil.h"
+
+int numFails = 0;
+int numTests = 0;
 
 // set NOISY_TEST to 0 to remove printfs from output
 #define NOISY_TEST 1
@@ -20,9 +27,6 @@ int myTest (struct gameState *pre, struct gameState *post)
 {
   int numDrawn = 3;
   int numPlayed = 1;
-
-  int numFails = 0;
-  int numTests = 0;
 
   int p = whoseTurn(pre);  // only the player whose turn it is has a hand drawn
 
@@ -36,9 +40,14 @@ int myTest (struct gameState *pre, struct gameState *post)
   numFails += intAssert("deck count",post->deckCount[p], 
     pre->deckCount[p] - numDrawn);
 
-  p++;
+  // check another player to make sure their hand is unchanged
+  if (p < pre->numPlayers-1)
+    p++;
+  else
+    p = 0;
+
 #ifdef NOISY_TEST
-  printf("Test player %d\n", p);
+  printf("Test opponent %d\n", p);
 #endif
 
   numTests += 2;
@@ -60,37 +69,39 @@ int myTest (struct gameState *pre, struct gameState *post)
 }
 
 int main() {
-  int r;
-  int handPos = 0, choice1 = -1, choice2 = -1, choice3 = -1, bonus = 0;
-  int seed = 1000;
-  int numPlayer = 2;
-
-  int k[10] = {adventurer, council_room, feast, gardens, mine,
-   remodel, smithy, village, baron, great_hall};
+  int r,n;
+  int handPos, choice1, choice2, choice3, bonus;
 
   struct gameState pre, post;
 
   printf ("TESTING smithy:\n");  
 
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  post = pre;
+  for (n = 0; n < 1000; n++) {
+    printf ("test %d\n",n);
+    // randomize initial game state
+    r = randomizeGame(&pre);
 
-  r = cardEffect(smithy, choice1, choice2, choice3, &post, handPos, &bonus);
-  intAssert("CALLED cardEffect with smithy\n",r, 0);
-  r = myTest(&pre,&post);
+    // place adventurer in random location in player's hand
+    handPos = random_int(0, pre.handCount[pre.whoseTurn]-1);
+    pre.hand[pre.whoseTurn][handPos] = adventurer;
 
-  // initialize game state
-  memset(&pre, 23, sizeof(struct gameState)); 
-  memset(&post, 23, sizeof(struct gameState)); 
-  r = initializeGame(numPlayer, k, seed, &pre);
-  post = pre;
+    // make random choices of cardEffect parameters
+    bonus = random_int(0, MAX_DECK);
+    choice1 = random_int(curse, treasure_map);
+    choice2 = random_int(curse, treasure_map);
+    choice3 = random_int(curse, treasure_map);
 
-  r = smithyEffect(&post, handPos);
-  intAssert("CALLED smithyEffect\n",r, 0);
-  r = myTest(&pre,&post);
+    memcpy (&post, &pre, sizeof(struct gameState));
+    r = cardEffect(smithy, choice1, choice2, choice3, &post, handPos, &bonus);
+    intAssert("CALLED cardEffect with smithy\n",r, 0);
+    r = myTest(&pre,&post);
+
+    memcpy (&post, &pre, sizeof(struct gameState));
+    r = smithyEffect(&post, handPos);
+    intAssert("CALLED smithyEffect\n",r, 0);
+    r = myTest(&pre,&post);
+  }
+  printf("%d of %d tests passed!\n",numTests - numFails, numTests);
 
 return 0;
 }

@@ -6,6 +6,9 @@ rngs.o: rngs.h rngs.c
 myAssert.o: myAssert.h myAssert.c
 	gcc -c myAssert.c -g  $(CFLAGS)
 
+myUtil.o: myUtil.h myUtil.c
+	gcc -c myUtil.c -g  $(CFLAGS)
+
 dominion.o: dominion.h dominion.c rngs.o
 	gcc -c dominion.c -g  $(CFLAGS)
 
@@ -96,16 +99,16 @@ unittestresults: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 car
 
 	gcov -b dominion.c >> unittestresults.out
 
-randomtestadventurer: randomtestadventurer.c dominion.o rngs.o myAssert.o interface.o
-	gcc -o randomtestadventurer -g  randomtestadventurer.c dominion.o rngs.o myAssert.o interface.o $(CFLAGS)
+randomtestadventurer: randomtestadventurer.c dominion.o rngs.o myAssert.o interface.o myUtil.o
+	gcc -o randomtestadventurer -g  randomtestadventurer.c dominion.o rngs.o myAssert.o interface.o myUtil.o $(CFLAGS)
 	chmod +x randomtestadventurer
 
-randomtestcard1: randomtestcard1.c dominion.o rngs.o myAssert.o interface.o
-	gcc -o randomtestcard1 -g  randomtestcard1.c dominion.o rngs.o myAssert.o interface.o $(CFLAGS)
+randomtestcard1: randomtestcard1.c dominion.o rngs.o myAssert.o interface.o myUtil.o
+	gcc -o randomtestcard1 -g  randomtestcard1.c dominion.o rngs.o myAssert.o interface.o myUtil.o $(CFLAGS)
 	chmod +x randomtestcard1
 
-randomtestcard2: randomtestcard2.c dominion.o rngs.o myAssert.o interface.o
-	gcc -o randomtestcard2 -g  randomtestcard2.c dominion.o rngs.o myAssert.o interface.o $(CFLAGS)
+randomtestcard2: randomtestcard2.c dominion.o rngs.o myAssert.o interface.o myUtil.o
+	gcc -o randomtestcard2 -g  randomtestcard2.c dominion.o rngs.o myAssert.o interface.o myUtil.o $(CFLAGS)
 	chmod +x randomtestcard2
 
 randomtestresults: randomtestadventurer randomtestcard1 randomtestcard2
@@ -113,6 +116,12 @@ randomtestresults: randomtestadventurer randomtestcard1 randomtestcard2
 	
 	echo "randomtestadventurer.c:" >> randomtestresults.out
 	./randomtestadventurer >> randomtestresults.out
+	
+	echo "randomtestcard1.c:" >> randomtestresults.out
+	./randomtestcard1 >> randomtestresults.out
+	
+	echo "randomtestcard2.c:" >> randomtestresults.out
+	./randomtestcard2 >> randomtestresults.out
 
 	gcov -b dominion.c >> randomtestresults.out
 	cat dominion.c.gcov >> randomtestresults.out

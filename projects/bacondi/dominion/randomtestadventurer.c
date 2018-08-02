@@ -13,6 +13,7 @@
 #include "rngs.h"
 #include "myAssert.h"
 #include "math.h"
+#include "myUtil.h"
 
 int numTests = 0;
 int numFails = 0;
@@ -21,43 +22,6 @@ int numFails = 0;
 #define NOISY_TEST 1
 
 int adventurerEffect(struct gameState *state);
-
-// generate random number in range min to max-1
-int random_int(int min, int max) 
-{
-  return min + (max - min)*(double)rand()/(double)RAND_MAX;
-}
-
-// randomly initialize the game state
-int randomizeGame(struct gameState *G) 
-{
-  // start with completely random game state
-  for (int i = 0; i < (int)sizeof(struct gameState); i++) {
-    ((char*)G)[i] = floor(Random() * 256);
-  }
-
-  // randomize sizes within reasonable ranges
-  G->numPlayers = random_int(2, MAX_PLAYERS);
-  G->whoseTurn = random_int(0, G->numPlayers);
-  G->playedCardCount = 0;
-
-    // fill deck, hand and discard with random cards
-  for (int p = 0; p < G->numPlayers; p++) {
-    G->deckCount[p] = random_int(3, MAX_DECK);
-    G->handCount[p] = random_int(0, MAX_DECK - G->deckCount[p]);
-    G->discardCount[p] = random_int(0, MAX_DECK - G->deckCount[p] - G->handCount[p]);
-
-    for (int i = 0; i < G->deckCount[p]; i++)
-      G->deck[p][i] = random_int(curse, treasure_map);
-    for (int i = 0; i < G->handCount[p]; i++)
-      G->hand[p][i] = random_int(curse, treasure_map);
-    for (int i = 0; i < G->discardCount[p]; i++)
-      G->discard[p][i] = random_int(curse, treasure_map);
-    updateCoins(p, G, 0); 
-  }
-
-  return 0;
-}
 
 int myTest (struct gameState *pre, struct gameState *post)
 {
@@ -106,7 +70,7 @@ int myTest (struct gameState *pre, struct gameState *post)
 int main() 
 {
   int r,n;
-  int handPos = 0, choice1 = -1, choice2 = -1, choice3 = -1, bonus = 0;
+  int handPos, choice1, choice2, choice3, bonus;
 
   struct gameState pre,post;
 
@@ -136,9 +100,8 @@ int main()
     r = adventurerEffect(&post);
     intAssert("CALLED adventurerEffect directly\n",r, 0);
     r = myTest(&pre,&post);
-
   }
-    printf("%d of %d tests passed!\n",numTests - numFails, numTests);
+  printf("%d of %d tests passed!\n",numTests - numFails, numTests);
 
 return 0;
 }
