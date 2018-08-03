@@ -81,9 +81,9 @@ int main() {
     // randomize initial game state
     r = randomizeGame(&pre);
 
-    // place adventurer in random location in player's hand
+    // place smithy in random location in player's hand
     handPos = random_int(0, pre.handCount[pre.whoseTurn]-1);
-    pre.hand[pre.whoseTurn][handPos] = adventurer;
+    pre.hand[pre.whoseTurn][handPos] = smithy;
 
     // make random choices of cardEffect parameters
     bonus = random_int(0, MAX_DECK);
