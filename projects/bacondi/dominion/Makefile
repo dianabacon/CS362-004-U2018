@@ -111,20 +111,23 @@ randomtestcard2: randomtestcard2.c dominion.o rngs.o myAssert.o interface.o myUt
 	gcc -o randomtestcard2 -g  randomtestcard2.c dominion.o rngs.o myAssert.o interface.o myUtil.o $(CFLAGS)
 	chmod +x randomtestcard2
 
-randomtestresults: randomtestadventurer randomtestcard1 randomtestcard2
-	echo "Running random tests:" > randomtestresults.out
-	
-	echo "randomtestadventurer.c:" >> randomtestresults.out
-	./randomtestadventurer >> randomtestresults.out
-	
-	echo "randomtestcard1.c:" >> randomtestresults.out
-	./randomtestcard1 >> randomtestresults.out
-	
-	echo "randomtestcard2.c:" >> randomtestresults.out
-	./randomtestcard2 >> randomtestresults.out
+randomtestadventurer.out: randomtestadventurer
+	echo "randomtestadventurer.c:" > randomtestadventurer.out
+	./randomtestadventurer >> randomtestadventurer.out
+	gcov -b dominion.c >> randomtestadventurer.out
+	cat dominion.c.gcov >> randomtestadventurer.out
 
-	gcov -b dominion.c >> randomtestresults.out
-	cat dominion.c.gcov >> randomtestresults.out
+randomtestcard1.out: randomtestcard1
+	echo "randomtestcard1.c:" > randomtestcard1.out
+	./randomtestcard1 >> randomtestcard1.out
+	gcov -b dominion.c >> randomtestcard1.out
+	cat dominion.c.gcov >> randomtestcard1.out
+
+randomtestcard2.out: randomtestcard2
+	echo "randomtestcard2.c:" > randomtestcard2.out
+	./randomtestcard2 >> randomtestcard2.out
+	gcov -b dominion.c >> randomtestcard2.out
+	cat dominion.c.gcov >> randomtestcard2.out
 
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
@@ -132,4 +135,4 @@ player: player.c interface.o
 all: playdom player 
 
 clean:
-	rm -rf *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe testUpdateCoins unittestresults.out unittest? cardtest? randomtestadventurer randomtestcard? randomtestresults.out *.dSYM
+	rm -rf *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so testDrawCard testDrawCard.exe testUpdateCoins unittestresults.out unittest? cardtest? randomtestadventurer randomtestcard? *.dSYM
