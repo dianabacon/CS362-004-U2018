@@ -15,7 +15,7 @@
 #define NOISY_TEST 1
 
 int main() {
-  int r, p, deckCount, discardCount, handCount;
+  int p, deckCount, discardCount, handCount;
   int seed = 1000;
   int numPlayer = 2;
   int numDeck = 5;
@@ -44,7 +44,7 @@ int main() {
 
             // initialize game state
             memset(&G, 23, sizeof(struct gameState)); 
-            r = initializeGame(numPlayer, k, seed, &G);
+            initializeGame(numPlayer, k, seed, &G);
             G.deckCount[p] = deckCount;
             memset(G.deck[p], 0, sizeof(int) * deckCount);
             G.discardCount[p] = discardCount;
@@ -58,15 +58,15 @@ int main() {
             numTests += 3;
 
             toFlag = 0; // add to discard
-            r = gainCard(numSupply, &G, toFlag, p);
+            gainCard(numSupply, &G, toFlag, p);
             numFails += intAssert("G.discardCount",G.discardCount[p], discardCount + 1); // check if the discard size is correct
 
             toFlag = 1; // add to deck
-            r = gainCard(numSupply, &G, toFlag, p);
+            gainCard(numSupply, &G, toFlag, p);
             numFails += intAssert("G.deckCount",G.deckCount[p], deckCount + 1); // check if the deck size is correct
 
             toFlag = 2; // add to hand
-            r = gainCard(numSupply, &G, toFlag, p);
+            gainCard(numSupply, &G, toFlag, p);
             numFails += intAssert("G.handCount",G.handCount[p], handCount + 1); // check if the hand size is correct
       }
     }

@@ -96,10 +96,10 @@ int main()
     intAssert("CALLED cardEffect with adventurer",r, 0);
     r = myTest(&pre,&post);
 
-    memcpy (&post, &pre, sizeof(struct gameState));
-    r = adventurerEffect(&post);
-    intAssert("CALLED adventurerEffect directly\n",r, 0);
-    r = myTest(&pre,&post);
+//    memcpy (&post, &pre, sizeof(struct gameState));
+//    r = adventurerEffect(&post);
+//    intAssert("CALLED adventurerEffect directly\n",r, 0);
+//    r = myTest(&pre,&post);
   }
   printf("%d of %d tests passed!\n",numTests - numFails, numTests);
 

@@ -96,10 +96,10 @@ int main() {
     intAssert("CALLED cardEffect with smithy\n",r, 0);
     r = myTest(&pre,&post);
 
-    memcpy (&post, &pre, sizeof(struct gameState));
-    r = smithyEffect(&post, handPos);
-    intAssert("CALLED smithyEffect\n",r, 0);
-    r = myTest(&pre,&post);
+//    memcpy (&post, &pre, sizeof(struct gameState));
+//    r = smithyEffect(&post, handPos);
+//    intAssert("CALLED smithyEffect\n",r, 0);
+//    r = myTest(&pre,&post);
   }
   printf("%d of %d tests passed!\n",numTests - numFails, numTests);
 

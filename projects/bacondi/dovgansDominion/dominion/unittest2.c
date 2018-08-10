@@ -15,7 +15,7 @@
 #define NOISY_TEST 1
 
 int main() {
-  int r, p, deckCount, discardCount, handCount;
+  int p, deckCount, discardCount, handCount;
   int seed = 1000;
   int numPlayer = 2;
   int numDeck = 5;
@@ -39,7 +39,7 @@ int main() {
           printf("Test player %d with %d in deck %d in discard and %d in hand.\n", p, deckCount, discardCount, handCount);
 #endif
           memset(&G, 23, sizeof(struct gameState)); 
-          r = initializeGame(numPlayer, k, seed, &G);
+          initializeGame(numPlayer, k, seed, &G);
           G.deckCount[p] = deckCount;
           memset(G.deck[p], 0, sizeof(int) * deckCount);
           G.discardCount[p] = discardCount;
@@ -47,7 +47,7 @@ int main() {
           G.handCount[p] = handCount;
           memset(G.hand[p], 0, sizeof(int) * handCount);
 
-          r = drawCard (p, &G);
+          drawCard (p, &G);
 
           numTests += 3;
 
