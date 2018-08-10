@@ -14,7 +14,8 @@
 // set NOISY_TEST to 0 to remove printfs from output
 #define NOISY_TEST 1
 
-int smithyEffect(struct gameState *state, int handPos);
+//int smithyEffect(struct gameState *state, int handPos);
+int smithyCardEffect(struct gameState *state, const int currentPlayer, const int handPos);
 
 int myTest (struct gameState *pre, struct gameState *post)
 {
@@ -88,9 +89,9 @@ int main() {
   r = initializeGame(numPlayer, k, seed, &pre);
   post = pre;
 
-  r = smithyEffect(&post, handPos);
-  intAssert("CALLED smithyEffect\n",r, 0);
-  r = myTest(&pre,&post);
+//  r = smithyCardEffect(&post, whoseTurn(&post), handPos);
+//  intAssert("CALLED smithyEffect\n",r, 0);
+//  r = myTest(&pre,&post);
 
 return 0;
 }
