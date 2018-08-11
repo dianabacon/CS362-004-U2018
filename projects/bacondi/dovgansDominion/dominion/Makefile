@@ -87,6 +87,8 @@ unittestresults: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2
 
 	$(GCOV) -b dominion.c >> unittestresults.out
 
+	cat dominion.c.gcov >> unittestresults.out
+
 randomtestadventurer: randomtestadventurer.c dominion.o rngs.o myAssert.o interface.o myUtil.o
 	$(GCC) -o randomtestadventurer -g  randomtestadventurer.c dominion.o rngs.o myAssert.o interface.o myUtil.o $(CFLAGS)
 	chmod +x randomtestadventurer
